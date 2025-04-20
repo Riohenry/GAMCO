@@ -41,7 +41,8 @@
         loop: true,
         items: 1
     });
+   
     
 })(jQuery);
-console.log('hello graet aubrey memorial college')
+
 

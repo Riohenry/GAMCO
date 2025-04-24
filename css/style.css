@@ -9953,3 +9953,13 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+
+     /* heading ................................................... */
+.first{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  background-color: #0014cc;
+  color: white;
+  text-align: center;
+
+}     

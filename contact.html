@@ -29,18 +29,22 @@
 
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <!-- font awesome icones -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
 </head>
 
 <body>
     <!-- Topbar Start -->
-    <div class="first">
-        <p>GREAT AUBREY MEMORIAL COLLEGE - TORORO</p>
-     </div>
+             <div class="first">
+           <p>GREAT AUBREY MEMORIAL COLLEGE - TORORO</p>
+        </div>
     <div class="container-fluid d-none d-lg-block">
+
         <div class="row align-items-center py-4 px-xl-5">
             <div class="col-lg-3">
                 <a href="" class="text-decoration-none">
-                    <h1 class="m-0"><span class="text-primary">GA</span>MCO</h1>
+                    <h1 class="m-0"><span class="text-primary"> <img src="img/logo (2).jpg" alt="" srcset="" height="60px" width="60px"> GA</span>MCO</h1>
                 </a>
             </div>
             <div class="col-lg-3 text-right">
@@ -56,9 +60,10 @@
                 <div class="d-inline-flex align-items-center">
                     <i class="fa fa-2x fa-envelope text-primary mr-3"></i>
                     <div class="text-left">
-                        <h6 class="font-weight-semi-bold mb-1">Email Us</h6>
-                        <small>greataubreycollegetororo@gmail.com
-                        </small>
+                        <h6 class="font-weight-semi-bol mb-1">Email Us</h6>
+                        <small>    <a href="mailto:greataubreycollegetororo@gmail.com
+                            " class="cta-button">greataubreycollegetororo@gmail.com
+                        </a></small>
                     </div>
                 </div>
             </div>
@@ -67,7 +72,7 @@
                     <i class="fa fa-2x fa-phone text-primary mr-3"></i>
                     <div class="text-left">
                         <h6 class="font-weight-semi-bold mb-1">Call Us</h6>
-                        <small>+256787859871</small>
+                        <small>   <a href="tel:+256787859871" class="cta-button"> +256787859871</a></small>
                     </div>
                 </div>
             </div>
@@ -76,7 +81,7 @@
     <!-- Topbar End -->
 
 
-         <!-- Navbar Start -->
+    <!-- Navbar Start -->
     <div class="container-fluid">
         <div class="row border-top px-xl-5">
             <div class="col-lg-3 d-none d-lg-block">
@@ -95,7 +100,7 @@
                             </div>
                         </div>
                         <a href="" class="nav-item nav-link">CURRICULUM</a>
-                        <a href="" class="nav-item nav-link">HOLIDAY WORK AND ASSIGNMENT</a>
+                        <a href="holiday.html" class="nav-item nav-link">HOLIDAY WORK AND ASSIGNMENT</a>
                         <a href="" class="nav-item nav-link"></a>
                         <a href="" class="nav-item nav-link"></a>
                     </div>
@@ -112,18 +117,19 @@
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav py-0">
                             <a href="index.html" class="nav-item nav-link active">Home</a>
-                            <a href="bout.html" class="nav-item nav-link">About</a>
-                            <a href="eacher.html" class="nav-item nav-link">Teachers</a>
                             <div class="nav-item dropdown">
-                                <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Blog</a>
+                                <a href="about.html" class="nav-link dropdown-toggle" data-toggle="dropdown">About us</a>
                                 <div class="dropdown-menu rounded-0 m-0">
-                                    <a href="blog.h" class="dropdown-item">Blog List</a>
-                                    <a href="ingle.html" class="dropdown-item">Blog Detail</a>
+                                    <a href="about.html" class="dropdown-item">School background</a>
+                                    <a href="sathem.html" class="dropdown-item">SCHOOL ANTHEM</a>
                                 </div>
                             </div>
+                            <a href="blog.html" class="nav-item nav-link">Blog</a>
+                            <a href="teacher.html" class="nav-item nav-link">Teachers</a>
+                            <a href="gallary.html" class="nav-item nav-link">Gallary</a>
                             <a href="contact.html" class="nav-item nav-link">Contact</a>
                         </div>
-                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Join Now</a>
+                        <a class="btn btn-primary py-2 px-4 ml-auto d-none d-lg-block" href="">Apply now</a>
                     </div>
                 </nav>
             </div>
@@ -138,7 +144,7 @@
             <div class="d-flex flex-column justify-content-center" style="min-height: 300px">
                 <h3 class="display-4 text-white text-uppercase">Contact</h3>
                 <div class="d-inline-flex text-white">
-                    <p class="m-0 text-uppercase"><a class="text-white" href="">Home</a></p>
+                    <p class="m-0 text-uppercase"><a class="text-white" href="index.html">Home</a></p>
                     <i class="fa fa-angle-double-right pt-1 px-3"></i>
                     <p class="m-0 text-uppercase">Contact</p>
                 </div>
@@ -146,54 +152,73 @@
         </div>
     </div>
     <!-- Header End -->
-
-
-    <!-- Contact Start -->
-    <div class="container-fluid py-5">
-        <div class="container py-5">
-            <div class="text-center mb-5">
-                <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">Contact</h5>
-                <h1>Contact us today</h1>
-                
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <div class="contact-form bg-secondary rounded p-5">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="name" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name" />
-                                <p class="help-block text-danger"></p>
+          
+        <!-- Registration Start -->
+        <div class="container-fluid bg-registration py-5" style="margin: 90px 0;">
+            <div class="container py-5">
+                <div class="row align-items-center">
+                    <div class="col-lg-7 mb-5 mb-lg-0">
+                        <div class="mb-4">
+                            <h5 class="text-primary text-uppercase mb-3" style="letter-spacing: 5px;">JOIN US TODAY</h5>
+                            <h1 class="text-white">MESSAGE US NOW</h1>
+                        </div>
+                        <p class="text-white">
+                                 We are readly and ably available to serve you with pleasure
+                            
+                            </p>
+                        <ul class="list-inline text-white m-0">
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><small>   <a href="tel:+256787859871" class="cta-button"> +256787859871</a></small></li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i><small>   <a href="tel:+256787859871" class="cta-button"> +256779154565</a></small></li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i>                        <small>    <a href="mailto:greataubreycollegetororo@gmail.com
+                                " class="cta-button">greataubreycollegetororo@gmail.com
+                            </a></small></li>
+                            <li class="py-2"><i class="fa fa-check text-primary mr-3"></i> <a class="btn btn-outline-light btn-square mr-2" href="https://wa.me/+256787859871" target="_blank"><i class="fab fa-whatsapp"></i></a>Whatsapp</li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="card border-0">
+                            <div class="card-header bg-light text-center p-4">
+                                <h1 class="m-0">SEND MESSAGE</h1>
                             </div>
-                            <div class="control-group">
-                                <input type="email" class="form-control border-0 p-4" id="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email" />
-                                <p class="help-block text-danger"></p>
+                            <div class="card-body rounded-bottom bg-primary p-5" >
+                                <form>
+                                    <div class="form-group">
+                                        <input type="text" class="form-control border-0 p-4" placeholder="Full names" required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" class="form-control border-0 p-4" placeholder="Phone number " required="required" />
+                                        <br>
+                                        <input type="type" class="form-control border-0 p-4" placeholder="write your message "  required="required" />
+                                    </div>
+                                    <div class="form-group">
+                                        
+                                        
+                                        <!-- <select class="custom-select border-0 px-4" style="height: 47px;">
+                                            option selected>Select a course</option>
+                                            
+                                            <option value="1">SENIOR 1</option>
+                                            <option value="2">SENIOR  2</option>
+                                            <option value="3">SENIOR  3</option>
+                                            <option value="3">SENIOR  4</option>
+                                            <option value="3">SENIOR  5</option>
+                                            <option value="3">SENIOR  6</option>
+                                            <option value="3">Selet your class</option>
+                                        </select> -->
+                                    </div>
+                                    <div>
+                                        <button class="btn btn-dark btn-block border-0 py-3" type="submit">BOOK NOW </button>
+                                    </div>
+                                </form>
                             </div>
-                            <div class="control-group">
-                                <input type="text" class="form-control border-0 p-4" id="subject" placeholder="Subject" required="required" data-validation-required-message="Please enter a subject" />
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="control-group">
-                                <textarea class="form-control border-0 py-3 px-4" rows="5" id="message" placeholder="Message" required="required" data-validation-required-message="Please enter your message"></textarea>
-                                <p class="help-block text-danger"></p>
-                            </div>
-                            <div class="text-center">
-                                <button class="btn btn-primary py-3 px-5" type="submit" id="sendMessageButton">Send Message</button>
-                            </div>
-                        </form>
-                        <br>
-                        <hr>
-                        <p style="text-align: center;"><a href="">OR</a></p>
-                        <br>
-                        <br>
-                        
-                        
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Contact End -->
+        <!-- Registration End -->
+
+
+
     
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-white py-5 px-sm-3 px-lg-5" style="margin-top: 90px;">
@@ -244,7 +269,7 @@
     <div class="container-fluid bg-dark text-white border-top py-4 px-sm-3 px-md-5" style="border-color: rgba(256, 256, 256, .1) !important;">
         <div class="row">
             <div class="col-lg-6 text-center text-md-left mb-3 mb-md-0">
-                <p class="m-0 text-white">&copy; <a href="#">Domain Name</a>. All Rights Reserved. Designed by <a href="https://portfolio-riohenry.vercel.app/"> lwanga samson $ Benard Mwanika</a>
+                <p class="m-0 text-white">&copy; <a href="#"></a> Designed by <a href="https://portfolio-riohenry.vercel.app/"> lwanga samson $ Benard Mwanika</a>
                 </p>
             </div>
             <div class="col-lg-6 text-center text-md-right">

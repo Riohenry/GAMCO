@@ -3212,11 +3212,11 @@ input[type="button"].btn-block {
 .dropdown-item:hover, .dropdown-item:focus {
   color: #16181b;
   text-decoration: none;
-  background-color: #f8f9fa;
+  background-color: blue;
 }
 
 .dropdown-item.active, .dropdown-item:active {
-  color: #fff;
+  color: blue;
   text-decoration: none;
   background-color: #1900ff;
 }
@@ -3586,7 +3586,7 @@ input[type="button"].btn-block {
 }
 
 .custom-control-input:focus:not(:checked) ~ .custom-control-label::before {
-  border-color: #ffb380;
+  border-color: blue;
 }
 
 .custom-control-input:not(:disabled):active ~ .custom-control-label::before {
@@ -4526,7 +4526,7 @@ input[type="button"].btn-block {
 .card-header {
   padding: 0.75rem 1.25rem;
   margin-bottom: 0;
-  background-color: rgba(0, 0, 0, 0.03);
+  background-color: rgba(6, 60, 238, 0.03);
   border-bottom: 1px solid rgba(0, 0, 0, 0.125);
 }
 
@@ -6350,9 +6350,9 @@ a.close.disabled {
 .align-text-top {
   vertical-align: text-top !important;
 }
-
+                                                  /* card for primary form */
 .bg-primary {
-  background-color: #FF6600 !important;
+  background-color: blue !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9769,7 +9769,7 @@ h6,
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #FF6600;
+  color: blue;
 }
 
 @media (max-width: 991.98px) {
@@ -9812,9 +9812,9 @@ h6,
   border: 5px solid #FFFFFF;
   border-radius: 25px;
 }
-
+                                              /* second buttons and indicators */
 .carousel-indicators .active {
-  background: #FF6600;
+  background: blue;
 }
 
 @media (max-width: 991.98px) {
@@ -9963,3 +9963,83 @@ h6,
   text-align: center;
 
 }     
+                                        /* success stories */
+.success-video {
+  min-height: 300px;
+}
+
+.success-video .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+@media (max-width: 767px) {
+  .success-video .play-btn {
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+}
+
+.play-btn {
+  display: inline-block;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background: blue;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.play-btn i {
+  line-height: 80px;
+}
+
+.play-btn::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  width: 0;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: #fff;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  z-index: -2;
+  transition: .3s ease;
+  transition-delay: .2s;
+}
+
+.play-btn::after {
+  position: absolute;
+  content: "";
+  height: 80%;
+  width: 80%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  background: red;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  transition: .3s ease;
+}
+
+.play-btn:hover::before {
+  height: 80%;
+  width: 80%;
+  transition-delay: 0s;
+}
+
+.play-btn:hover::after {
+  height: 0;
+  width: 0;
+  transition: 0s ease;
+}
+
+/* /success story */

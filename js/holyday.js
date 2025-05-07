@@ -23,7 +23,7 @@ const countdownInterval = setInterval(() => {
 // Holiday Greeting
 document.getElementById("greetButton").addEventListener("click", function() {
     const greeting = document.getElementById("greeting");
-    greeting.textContent = "Wishing you a joyful holiday season filled with peace and happiness!";
+    greeting.textContent = "Wishing you a joyful holiday season filled with peace and happiness as you wait your teacher to upload your holiday work!";
     greeting.classList.remove("hidden");
     greeting.classList.add("show");
 });

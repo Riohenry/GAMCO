@@ -16,6 +16,7 @@
         }
         toggleNavbarMethod();
         $(window).resize(toggleNavbarMethod);
+        
     });
      
     // Back to top button
@@ -40,7 +41,6 @@
         loop: true,
         items: 1
     });
-   
     
 })(jQuery);
  

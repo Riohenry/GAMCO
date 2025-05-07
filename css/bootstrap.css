@@ -6440,7 +6440,7 @@ button.bg-dark:focus {
 }
 
 .border-danger {
-  border-color: #dc3545 !important;
+  border-color: blue !important;
 }
 
 .border-light {
@@ -9502,7 +9502,7 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: blue !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
